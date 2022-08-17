@@ -10,15 +10,19 @@
   </head>
   <body style="background-color:#dedede;">
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <!-- Offcanvas Nav Sidbar Toggler-->
+        <button class="btn btn-outline-dark btn-lg d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasResponsive" aria-controls="offcanvasResponsive"><i class="bi bi-list" style="color:white;"></i></button>
+
         <!-- Navbar brand & logo -->
-        <a class="navbar-brand col-3" style="padding-left:10px;" href="">ChitChat  | <i class="bi bi-star-fill" style="color:#ECD91D;"></i><span style="font-family:cursive;">Stars</span></a>
+        <a class="navbar-brand col-3" style="padding-left:10px;" href="">ChitChat <i class="bi bi-star-fill" style="color:#ECD91D;"></i><span style="font-family:cursive;"> Stars</span></a>
 
         <!-- Toggle/Menu button -->
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+        <button class="navbar-toggler btn btn-outline-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots" style="color:white;"></i>
         </button>
+
         <!-- Search bar -->
-        <div class="collapse navbar-collapse col-3" id="navbarSupportedContent">
+        <div class="collapse navbar-collapse col-3 col-md-3">
         <div class="input-group input-group-sm mb-0">
             <input type="text" placeholder="Search @Username" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
             <button class="btn btn-outline-secondary" type="button" id="button-addon2"><i class="bi bi-search"></i></button>
@@ -44,23 +48,34 @@
 <div class="col-7" style="background:black; color:white;"><input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
 <button class="btn btn-outline-secondary" type="button" id="button-addon2"><i class="bi bi-search"></i></button></div>
 <div class="col-2" style="background:black; color:white;">Coins</div>
-</div> -->
-
-<div class="row">
-<div class="col-2" style="background-color:white; border-left:5px solid #dedede; border-top:5px solid #dedede;">
-  <ul class="list-group list-group-flush" style="list-style:none; padding-left:10px; font-size:18px;">
-    <li class="list-group-item"><a href="" style="text-decoration:none; color:black;"><i class="bi bi-star-fill" style="color:#ECD91D;"></i> Stars</a></li>
-    <li class="list-group-item"><a href="" style="text-decoration:none; color:black;"><i class="bi bi-suit-heart-fill" style="color:red;"></i> Love</a></li>
-    <li class="list-group-item"><a href="" style="text-decoration:none; color:black;"><i class="bi bi-geo-alt-fill" style="color:blue;"></i> Local</a></li>
-    <li class="list-group-item"><a href="" style="text-decoration:none; color:black;"><i class="bi bi-person-circle"></i> Profile</a></li>
-    <li class="list-group-item"><a href="" style="text-decoration:none; color:black;"><i class="bi bi-envelope-open"></i> Inbox</a></li>
-    <li class="list-group-item"><a href="" style="text-decoration:none; color:black;"><i class="bi bi-people-fill"></i> Friends</a></li>
-    <li class="list-group-item"><a href="" style="text-decoration:none; color:black;"><i class="bi bi-bell-fill"></i> Notifications</a></li>
-    <li class="list-group-item"><a href="" style="text-decoration:none; color:black;"><i class="bi bi-star"></i> Reviews</a></li>
-    <li class="list-group-item" style="color:#D8D8D8; font-size:12px;"><a href="" style="text-decoration:none; color:#D8D8D8;">Legal</a> - <a href="" style="text-decoration:none; color:#D8D8D8;">Contact</a> - <a href="" style="text-decoration:none; color:#D8D8D8;">Jobs</a></li>
-  </ul>
 </div>
-<div class="col-10" style="background-color:white; border-left:5px solid #dedede; border-top:5px solid #dedede; padding-left:5px; text-align:center;">Page Details</div>
+border-left:5px solid #dedede;
+-->
+
+<div class="container">
+  <div class="row">
+      <div class="offcanvas-md offcanvas-end col-md-2 text-left" tabindex="-1" id="offcanvasResponsive" aria-labelledby="offcanvasResponsiveLabel" style="background-color:white; border-top:5px solid #dedede;">
+      <div>
+        <ul class="list-group list-group-flush" style="list-style:none; padding-left:5px; font-size:18px;">
+          <li class="list-group-item"><a href="" style="text-decoration:none; color:black;"><i class="bi bi-star-fill" style="color:#ECD91D;"></i> Stars</a></li>
+          <li class="list-group-item"><a href="" style="text-decoration:none; color:black;"><i class="bi bi-suit-heart-fill" style="color:red;"></i> Love</a></li>
+          <li class="list-group-item"><a href="" style="text-decoration:none; color:black;"><i class="bi bi-geo-alt-fill" style="color:blue;"></i> Local</a></li>
+        </ul>
+      </div>
+      <div>
+        <ul class="list-group list-group-flush" style="list-style:none; padding-left:5px; font-size:18px;">
+          <li class="list-group-item"><a href="" style="text-decoration:none; color:black;"><i class="bi bi-person-circle"></i> Profile</a></li>
+          <li class="list-group-item"><a href="" style="text-decoration:none; color:black;"><i class="bi bi-envelope-open"></i> Inbox</a></li>
+          <li class="list-group-item"><a href="" style="text-decoration:none; color:black;"><i class="bi bi-people-fill"></i> Friends</a></li>
+          <li class="list-group-item"><a href="" style="text-decoration:none; color:black;"><i class="bi bi-bell-fill"></i> Activity</a></li>
+          <li class="list-group-item"><a href="" style="text-decoration:none; color:black;"><i class="bi bi-star"></i> Reviews</a></li>
+          <li class="list-group-item" style="color:#D8D8D8; font-size:12px;"><a href="" style="text-decoration:none; color:#D8D8D8;">Legal</a> - <a href="" style="text-decoration:none; color:#D8D8D8;">Contact</a> - <a href="" style="text-decoration:none; color:#D8D8D8;">Jobs</a></li>
+        </ul>
+      </div>
+    </div>
+      <div class="col-md-10" style="background-color:white; border-left:5px solid #dedede; border-top:5px solid #dedede; padding-left:5px; text-align:center;">Page Details
+      </div>
+  </div>
 </div>
 <!-- <div class="row">
     <div class="col-xl-2 col-lg-2 col-sm-2 col-xs-1" style="background-color:red; border:1px solid;"><a class="navbar-brand" href="">ChitChat</a></div>
