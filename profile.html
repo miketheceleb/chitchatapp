@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap Installation</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <!-- Bootstrap Font Icon CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+  </head>
+  <body style="background-color:#dedede;">
+
+<!-- NAVBAR SETTINGS -->
+
+    <nav class="navbar navbar-collapse navbar-expand-lg navbar-dark bg-dark sticky-top">
+
+        <div class="container-md">
+              <!-- Navbar brand & logo -->
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <!-- <i class="bi bi-list"></i> -->
+              <span class="navbar-toggler-icon"></span>
+              </button>
+
+              <!-- Navbrand logo -->
+              <a class="navbar-brand me-auto" style="padding-left:10px;" href="index.html">ChitChat</a>
+
+              <!-- Navigation Bar Links -->
+              <div class="collapse navbar-collapse col-md-3" id="navbarNavDropdown">
+                  <ul class="navbar-nav">
+                      <li class="nav-item">
+                            <li class="nav-item dropdown">
+                              <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                  <i class="bi bi-star-fill" style="color:#ECD91D;"></i>&nbsp;Stars</a>
+                                    <ul class="dropdown-menu">
+                                      <li><a class="dropdown-item" href="#">Entrepreneurs</a></li>
+                                      <li><a class="dropdown-item" href="#">Actors</a></li>
+                                      <li><a class="dropdown-item" href="#">Artists</a></li>
+                                    </ul>
+                            </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="love.html"><i class="bi bi-suit-heart-fill" style="color:red;"></i>&nbsp;Love</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="local.html"><i class="bi bi-geo-alt-fill" style="color:blue;"></i>&nbsp;Locals</a>
+                      </li>
+
+                  </ul>
+              </div>
+
+              <!-- Navbar Input Field -->
+              <form class="d-flex col-sm-6 me-auto" role="search" id="navbarNavDropdown">
+              <input class="form-control me-5 ms-3" type="search" placeholder="Search" aria-label="Search">
+              </form>
+              <button class="btn btn-outline-light" type="submit">Login</button>
+        </div>
+
+    </nav>
+
+<!-- BODY DETAILS -->
+        <div class="container text-center">
+            <div class="row g-2 justify-content-center">
+                <!-- Left-Side Page Details -->
+                <div class="col-3 d-none d-lg-block">
+                      <div class="p-3 bg-light">
+                        Custom column padding
+                      </div>
+                </div>
+                <!-- Right-Side Page Details  -->
+                <div class="col-lg-9 bg-light">
+
+                      <div class="row justify-content-center">
+                        <i class="bi bi-person-circle" style="font-size:10rem"></i>
+                      </div>
+                      <div class="row justify-content-center">
+                        <h3>Mike Brown <i class="bi bi-patch-check-fill" style="color:red; font-size:1.5rem;"></i></h3>
+                      </div>
+                      <div class="row justify-content-center">
+                        <h5>@MikeTheCeleb</h5>
+                      </div>
+                      <div class="row justify-content-center">
+                        <p>Founder/CEO, ChitChat</p>
+                      </div>
+                      <div class="row justify-content-center" style="white-space:nowrap; align-items:center;">
+
+                            <div class="col-auto d-inline">
+                              <div style="font-weight:bold; font-size:30px;">23</div><div>Friends</div>
+                            </div>
+                            <span class="col-auto d-inline" style="border-left:2px solid #dedede; height:30px;"></span>
+                            <!-- <div class="col-1 d-inline" style="border-left:2px solid #dedede;height:50px;"></div> -->
+                            <div class="col-auto d-inline">
+                              <div style="font-weight:bold; font-size:30px;">23</div><div>Following</div>
+                            </div>
+                            <span class="col-auto d-inline" style="border-left:2px solid #dedede; height:30px;"></span>
+                            <!-- <div class="col-1 d-inline" style="border-left:2px solid #dedede;height:50px;"></div> -->
+                            <div class="col-auto d-inline">
+                              <div style="font-weight:bold; font-size:30px;">4.5M</div><div>Followers</div>
+                            </div>
+                            <span class="col-auto d-inline" style="border-left:2px solid #dedede; height:30px;"></span>
+                            <!-- <div class="col-1 d-inline" style="border-left:2px solid #dedede; height:50px;"></div> -->
+                            <div class="col-auto d-inline">
+                              <div style="font-weight:bold; font-size:30px;">27</div><div>Reviews</div>
+                            </div>
+
+                      </div>
+                      <br><div class="row justify-content-center">
+                        <p>
+                          <span><i class="bi bi-star" style="color:#FFC300; white-space:nowrap;"></i>&nbsp;4.9</span>&nbsp;&nbsp;
+                          <span><i class="bi bi-clock" style="color:#FFC300; white-space:nowrap;"></i>&nbsp;24hrs</span>&nbsp;&nbsp;
+                          <span><i class="bi bi-hash" style="color:#FFC300; white-space:nowrap;"></i>Entrepreneur</span>&nbsp;&nbsp;
+                        </p>
+                      </div>
+                      <div class="row justify-content-center">
+                        <p>
+                          <span><i class="bi bi-chat-right-text" style="color:green; white-space:nowrap;"></i>&nbsp;$10</span>&nbsp;&nbsp;
+                          <span><i class="bi bi-image" style="color:green; white-space:nowrap;"></i>&nbsp;$20</span>&nbsp;&nbsp;
+                          <span><i class="bi bi-camera-video" style="color:green; white-space:nowrap;"></i>&nbsp;$1,000</span>&nbsp;&nbsp;
+                          <span><i class="bi bi-camera-reels" style="color:green; white-space:nowrap;"></i>&nbsp;$3,000</span>
+                        </p>
+                      </div>
+                      <div class="row justify-content-center">
+                        <p>
+                          <span><i class="bi bi-person" style="color:red; white-space:nowrap;"></i>&nbsp;6'0"</span>&nbsp;&nbsp;
+                          <span><i class="bi bi-moon-stars" style="color:red; white-space:nowrap;"></i>&nbsp;Cancer</span>&nbsp;&nbsp;
+                          <span><i class="bi bi-suit-heart" style="color:red; white-space:nowrap;"></i>&nbsp;Single</span>&nbsp;&nbsp;
+                          <span><i class="bi bi-bookmark-heart" style="color:red; white-space:nowrap;"></i>&nbsp;Straight</span>&nbsp;&nbsp;
+                        </p>
+                      </div>
+                      <div class="row justify-content-center">
+                        <p>
+                          <span><i class="bi bi-geo-alt" style="color:#6BBFFF; white-space:nowrap;"></i>&nbsp;Atlanta, GA</span>&nbsp;&nbsp;
+                          <span><i class="bi bi-building" style="color:#6BBFFF; white-space:nowrap;"></i>&nbsp;Military</span>&nbsp;&nbsp;
+                          <span><i class="bi bi-link-45deg" style="color:#6BBFFF; white-space:nowrap;"></i>Chit.Chat</span>
+                        </p>
+                      </div>
+                      <div class="row justify-content-center">
+                        <div class="col-auto"><button class="btn btn-outline-dark btn-lg col-12" type="button">Following</button></div>
+                        <div class="col-auto"><button class="btn btn-success btn-lg col-12" type="button">Message</button></div>
+                      </div>
+                      <br>
+                      <hr>
+                      <br>
+                </div>
+
+            </div>
+        </div>
+
+
+<!-- Bootstrap CDN Script -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+  </body>
+</html>
