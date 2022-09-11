@@ -11,6 +11,8 @@
     overflow-y: hidden;
     white-space: nowrap;
     //display: block;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
 
 }
 
