@@ -11,6 +11,7 @@ body {
 }
 .container {
   margin-top: 0;
+  padding-top: 0;
 }
 div.inbox, div.chat {
   border: 1px solid #E9E9E9;
