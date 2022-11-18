@@ -301,7 +301,7 @@ li.chat-msg-received, li.chat-msg-sent {
   background-color: #7CC27F; /* Green */
   border: none;
   color: white;
-  padding: 15px 32px;
+  //padding: 15px 32px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
