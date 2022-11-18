@@ -9,6 +9,9 @@ body {
   color: red;
   font-size: 15px;
 }
+.container {
+  margin-top: 0;
+}
 div.inbox, div.chat {
   border: 1px solid #E9E9E9;
   height: 625px;
