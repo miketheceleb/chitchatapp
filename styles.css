@@ -32,15 +32,15 @@
     //margin: 0px;
     //padding: 0px;
 }
-profile-img {
+.profile-img {
     height: 60px;
     width: 60px;
     padding: 0px;
     margin: 10px;
 }
-menu-img {
-  height: 20px;
-    width: 20px;
+.menu-img {
+  height: 25px;
+  width: 25px;
 }
 p (
     margin-bottom: 0px;
