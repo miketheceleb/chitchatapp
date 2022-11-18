@@ -38,6 +38,10 @@ profile-img {
     padding: 0px;
     margin: 10px;
 }
+menu-img {
+  height: 20px;
+    width: 20px;
+}
 p (
     margin-bottom: 0px;
   )
