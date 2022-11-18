@@ -340,3 +340,8 @@ li.chat-msg-received, li.chat-msg-sent {
 ::-webkit-scrollbar {
     display: none;
 }
+
+.menu-img {
+ width: 25px;
+ height: 25px;
+}
