@@ -32,6 +32,9 @@
     //margin: 0px;
     //padding: 0px;
 }
+.card {
+    text-align: center; 
+}
 .profile-img {
     height: 150px;
     width: 150px;
